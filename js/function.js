@@ -1,4 +1,0 @@
-function interview()
-{
-	alert("example");
-}
