@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------------*/
+/*Navbar*/
+.top_info{
+	background-color:#D00C0C;
+}
+
+.menu_block {
+
+	background-color:#FBFBFB;
+	box-shadow: 5px 5px 5px #F2F2F2;
+}
+
+.navmenu li a {
+	text-transform:uppercase;
+	font-weight:500;
+	color:#000000;
+}
+.navmenu li a:hover {
+	color:blue;
+}
+
+.navmenu li:hover a:before,
+.navmenu li.active a:before,
+.navmenu li:hover a:after,
+.navmenu li.active a:after {
+    left:0px;
+	right:0px;
+	top:0px;
+	height:0px;
+	background-color:none;
+}
+.post .post_title {
+	line-height:25px;
+	font-size:16px;
+}
+.post.large_image .post_title {
+	padding-bottom:4px;
+	line-height:25px;
+	font-size:22px;
+	text-transform:uppercase;
+	
+}
+.sidepanel {
+
+	border:none;
+}
+
+.widget_search,.widget_newsletter,.widget_categories{
+	box-shadow: 5px 5px 5px #F2F2F2;
+	background-color:#F9F9F9;
+	
+}
+.widget_newsletter{
+   background-image: none;
+   padding:5px 0 4px 15px;
+}
+footer{
+	background-color:#696767 ;
+	box-shadow: 5px 5px 5px #F2F2F2;
+}
+.copyright {
+	background-color:#E1E1E2;
+	box-shadow: 5px 5px 5px #F2F2F2;
+}
+
